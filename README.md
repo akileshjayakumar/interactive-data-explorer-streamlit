@@ -1,14 +1,37 @@
-# 🎬 Movies Explorer
+# Movie Genre Insights 🍿
 
-What makes a successful movie? Which movie genre performs best at the box office?
+Discover which movie genres perform best at the box office with this Streamlit app!
 
-These are some of the questions that may be answered by analyzing a large collection of movie data such as the one compiled from The Movie Database (TMDB). It serves as a valuable resource for investigating fundamental questions regarding their success with information on plot details, cast and crew composition, production budgets, box office revenues, etc.
+## Introduction
 
-This data app shows a simple demonstration of an interactive data explorer that allow users to adjust parameter widgets and observe in real-time updates to data visualization.
+This Streamlit app allows users to explore and analyze movie genre data to understand which genres have the highest gross earnings at the box office. Users can select specific genres and a year duration to filter the data and visualize the results.
 
-## Demo App
+## Features
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://interactive-data-explorer-template.streamlit.app/)
+- **Interactive Interface**: Users can select genres and a year duration using intuitive widgets.
+- **Data Visualization**: The app displays the selected data as both a table and an interactive chart, making it easy to understand trends and patterns.
+- **Dynamic Filtering**: Users can filter the data based on their preferences, allowing for customized analysis.
+
+## Usage
+
+To use the app:
+1. Clone the repository.
+2. Install the required dependencies: `streamlit`, `numpy`, `pandas`, and `altair`.
+3. Run the Streamlit app using the command: `streamlit run <filename>.py`.
+4. Select genres and a year duration using the provided widgets.
+5. Explore the data summary and visualizations to gain insights into movie genre performance.
+
+## Technologies Used
+
+- **Python**: Programming language used to develop the app.
+- **Streamlit**: Framework used for building interactive web apps with Python.
+- **NumPy**: Library for numerical computing in Python.
+- **Pandas**: Library for data manipulation and analysis.
+- **Altair**: Visualization library for creating interactive visualizations.
+
+## Data Source
+
+The movie genre data used in this app is sourced from 'movies_genres_summary.csv'.
 
 ## GitHub Codespaces
 
@@ -17,4 +40,5 @@ This data app shows a simple demonstration of an interactive data explorer that 
 ## Reference
 
 - [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
   
