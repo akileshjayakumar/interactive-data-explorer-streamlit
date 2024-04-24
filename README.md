@@ -1,44 +1,51 @@
-# Movie Genre Insights 🍿
+# [Movie Genre Insights](https://movie-genre-insights-app.streamlit.app/)
 
-Discover which movie genres perform best at the box office with this Streamlit app!
+## Key Features
 
-## Introduction
+- **Interactive Interface**: Choose genres and time periods with ease using intuitive controls.
+- **Data Visualization**: Analyze data through interactive charts and detailed tables to spot trends and patterns quickly.
+- **Dynamic Filtering**: Customize your data exploration by selecting different genres and years, adjusting the analysis to your interests.
 
-This Streamlit app allows users to explore and analyze movie genre data to understand which genres have the highest gross earnings at the box office. Users can select specific genres and a year duration to filter the data and visualize the results.
+- ## Tools Used
 
-## Features
+- **Backend**: Python for scripting.
+- **Frontend**: Streamlit for the interactive web interface.
+- **Data Processing**: NumPy and Pandas for handling data.
+- **Visualization**: Altair for crafting engaging, interactive visualizations.
 
-- **Interactive Interface**: Users can select genres and a year duration using intuitive widgets.
-- **Data Visualization**: The app displays the selected data as both a table and an interactive chart, making it easy to understand trends and patterns.
-- **Dynamic Filtering**: Users can filter the data based on their preferences, allowing for customized analysis.
+## Project Setup
 
-## Usage
+To launch this app locally, follow these steps:
 
-To use the app:
-1. Clone the repository.
-2. Install the required dependencies: `streamlit`, `numpy`, `pandas`, and `altair`.
-3. Run the Streamlit app using the command: `streamlit run <filename>.py`.
-4. Select genres and a year duration using the provided widgets.
-5. Explore the data summary and visualizations to gain insights into movie genre performance.
-
-## Technologies Used
-
-- **Python**: Programming language used to develop the app.
-- **Streamlit**: Framework used for building interactive web apps with Python.
-- **NumPy**: Library for numerical computing in Python.
-- **Pandas**: Library for data manipulation and analysis.
-- **Altair**: Visualization library for creating interactive visualizations.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourUsername/movie-genre-insights.git
+   ```
+2. **Navigate to the app directory**:
+   ```bash
+   cd movie-genre-insights
+   ```
+3. **Install required dependencies**:
+   ```bash
+   pip install streamlit numpy pandas altair
+   ```
+4. **Run the Streamlit app**:
+   ```bash
+   streamlit run app.py
+   ```
+5. **View the app**:
+   Open `http://localhost:8501` in your browser to start exploring movie genre performance.
 
 ## Data Source
 
-The movie genre data used in this app is sourced from 'movies_genres_summary.csv'.
+- [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) - Primary data source for movie genres and earnings.
 
-## GitHub Codespaces
+## Contributing
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dataprofessor/movies-explorer?quickstart=1)
+If you have suggestions for improvements or wish to add new features, please fork the repository, make your changes, and submit a pull request.
 
-## Reference
+## Contact Information
 
-- [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
-
-  
+- **Email**: jayakuma006@mymail.sim.edu.sg
+- **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
+- **GitHub**: [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
