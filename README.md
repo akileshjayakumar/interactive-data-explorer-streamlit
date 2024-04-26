@@ -1,6 +1,6 @@
 # [Movie Genre Insights](https://movie-genre-insights-app.streamlit.app/)
 
-Here is the link to the [Live Site](https://movie-genre-insights-app.streamlit.app/)!
+Here is the link to the live site: [https://movie-genre-insights-app.streamlit.app/](https://movie-genre-insights-app.streamlit.app/)
 
 ## Key Features
 
