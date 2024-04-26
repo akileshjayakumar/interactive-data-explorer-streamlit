@@ -1,5 +1,7 @@
 # [Movie Genre Insights](https://movie-genre-insights-app.streamlit.app/)
 
+Here is the link to the [Live Site](https://movie-genre-insights-app.streamlit.app/)!
+
 ## Key Features
 
 - **Interactive Interface**: Utilize intuitive controls to select genres and time periods effortlessly.
